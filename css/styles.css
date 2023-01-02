@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    /*for changing the default margin =0*/
+    text-align: center;
+    font-family: 'Merriweather', sans-serif;
+
+
+}
+
+.top {
+    background-color: rgb(172, 239, 217);
+
+
+}
+
+h1 {
+    font-size: 9 rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 50px;
+    color: rgb(46, 140, 109);
+
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(46, 140, 109);
+    margin-top: 0px;
+
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(46, 140, 109);
+    padding-top: 20px;
+}
+
+a {
+    display: inline;
+    color: rgb(46, 140, 109);
+    text-decoration: none;
+}
+
+
+
+
+
+
+.bottom-cloud {
+    position: absolute;
+    height: 50px;
+    width: 90px;
+    left: 300px;
+
+}
+
+.top-cloud {
+    position: relative;
+    left: 240px;
+    top: 55px;
+    height: 50px;
+    width: 90px;
+
+}
+
+.mountain {
+
+    width: 55%;
+    opacity: 85%;
+
+
+
+}
+
+.skill-row {
+    width: 50%;
+    margin: 0px auto 100px auto;
+    text-align: left;
+
+}
+
+
+.code {
+    float: left;
+    margin-right: 30px;
+    width: 25%;
+}
+
+.design {
+    float: right;
+    margin-left: 30px;
+    width: 25%;
+}
+
+.prf {
+
+    width: 14%;
+}
+
+.profiles {
+    background-color: rgb(172, 239, 217);
+    ;
+}
+
+hr {
+
+    border-style: none;
+    border-top-style: dotted;
+    /* for getting a dotted hr and top because we want only one dotted line instead of border*/
+    border-width: 5px;
+    width: 5%;
+    border-color: rgb(46, 140, 109);
+
+
+}
+
+.sgn {
+    color: rgb(46, 140, 109);
+    font-family: cursive;
+}
+
+.btn {
+    background: #34d968;
+    background-image: -webkit-linear-gradient(top, #34d968, #2b8bb8);
+    background-image: -moz-linear-gradient(top, #34d968, #2b8bb8);
+    background-image: -ms-linear-gradient(top, #34d968, #2b8bb8);
+    background-image: -o-linear-gradient(top, #34d968, #2b8bb8);
+    background-image: linear-gradient(to bottom, #34d968, #2b8bb8);
+    -webkit-border-radius: 11;
+    -moz-border-radius: 11;
+    border-radius: 11px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 17px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #20782e;
+    background-image: -webkit-linear-gradient(top, #20782e, #571ac9);
+    background-image: -moz-linear-gradient(top, #20782e, #571ac9);
+    background-image: -ms-linear-gradient(top, #20782e, #571ac9);
+    background-image: -o-linear-gradient(top, #20782e, #571ac9);
+    background-image: linear-gradient(to bottom, #20782e, #571ac9);
+    text-decoration: none;
+}
